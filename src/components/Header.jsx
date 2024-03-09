@@ -88,6 +88,8 @@ export default function Header() {
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
+      document.documentElement.classList.remove("light");
+      localStorage.setItem("theme", "dark");
       setTimeout(
         document.querySelector(".sun").classList.add("opacity-0"),
         200,
