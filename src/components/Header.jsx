@@ -150,7 +150,7 @@ export default function Header() {
             onClick={() => {
               toggleMenu();
             }}
-            className="hamburger-logo hamburger-active lg:hidden"
+            className="hamburger-logo lg:hidden"
           >
             <div className="hamburger-line origin-top-left transition duration-200"></div>
             <div className="hamburger-line transition duration-200"></div>
